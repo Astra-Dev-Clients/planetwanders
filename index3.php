@@ -46,37 +46,6 @@
     .bg-cream { background-color: var(--pw-cream) !important; }
     .bg-sand { background-color: var(--pw-sand) !important; }
 
-    /* Currency Switcher Pill */
-    .currency-switch-group {
-      background: rgba(255, 255, 255, 0.12);
-      border: 1px solid rgba(217, 154, 38, 0.5);
-      border-radius: 30px;
-      padding: 3px;
-      display: inline-flex;
-      align-items: center;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.25);
-    }
-    .currency-switch-btn {
-      border: none;
-      background: transparent;
-      color: #eaeaea;
-      padding: 4px 12px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      border-radius: 20px;
-      cursor: pointer;
-      transition: all 0.25s ease;
-      letter-spacing: 0.5px;
-    }
-    .currency-switch-btn:hover {
-      color: #ffffff;
-    }
-    .currency-switch-btn.active {
-      background-color: var(--pw-gold);
-      color: #111712;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-    }
-
     /* Buttons */
     .btn-gold {
       background-color: var(--pw-gold);
@@ -252,7 +221,7 @@
       position: absolute;
       bottom: 15px;
       right: 15px;
-      background: rgba(17, 23, 18, 0.92);
+      background: rgba(17, 23, 18, 0.88);
       color: var(--pw-gold);
       font-weight: 700;
       padding: 6px 14px;
@@ -385,7 +354,7 @@
         <span><i class="fa-solid fa-shield-heart text-gold me-1"></i> Licensed KATO Safaris Partner</span>
       </div>
       <div class="d-flex align-items-center gap-3">
-        <a href="tel:+254722641603" class="text-white text-decoration-none"><i class="fa-solid fa-phone text-gold me-1"></i> +254 722 641 603</a>
+        <a href="tel:+254700000000" class="text-white text-decoration-none"><i class="fa-solid fa-phone text-gold me-1"></i> +254 712 345 678</a>
         <a href="mailto:info@planetwanderstours.com" class="text-white text-decoration-none"><i class="fa-solid fa-envelope text-gold me-1"></i> info@planetwanderstours.com</a>
       </div>
     </div>
@@ -404,14 +373,6 @@
         </div>
       </a>
       
-      <!-- Currency switcher for Mobile Header -->
-      <div class="d-lg-none ms-auto me-2">
-        <div class="currency-switch-group">
-          <button class="currency-switch-btn active" data-currency="KES" onclick="setCurrency('KES')">KSh</button>
-          <button class="currency-switch-btn" data-currency="USD" onclick="setCurrency('USD')">USD ($)</button>
-        </div>
-      </div>
-
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -426,21 +387,7 @@
           <li class="nav-item"><a class="nav-link" href="#fleet">Our Fleet</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
-        <div class="d-flex align-items-center gap-3">
-
-        
-          <!-- Desktop Currency Switcher -->
-          <div class="currency-switch-group d-none d-lg-inline-flex" title="Toggle Currency (Default: KSh)" style="font-size: 0.75rem;">
-            <button class="currency-switch-btn active px-1 py-1" data-currency="KES" onclick="setCurrency('KES')">
-              <!-- <i class="fa-solid fa-coins me-0"></i> -->
-               KSh
-            </button>
-            <button class="currency-switch-btn px-1 py-1" data-currency="USD" onclick="setCurrency('USD')">
-              <!-- <i class="fa-solid fa-dollar-sign me-0"></i> -->
-               USD
-            </button>
-          </div>
-
+        <div class="d-flex align-items-center gap-2">
           <a href="#calculator" class="btn btn-gold text-white btn-sm px-4">
             <i class="fa-solid fa-calculator me-1"></i> Get Quick Quote
           </a>
@@ -614,7 +561,7 @@
             <div class="package-img-holder">
               <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=700&q=80" alt="Masai Mara Safari">
               <span class="badge-ribbon"><i class="fa-solid fa-star text-gold me-1"></i> Most Popular</span>
-              <span class="badge-price"><span class="price-val" data-usd="450">KSh 58,500</span> <small class="text-white fw-normal">/ person</small></span>
+              <span class="badge-price">From $450 <small class="text-white fw-normal">/ person</small></span>
             </div>
             <div class="p-4 d-flex flex-column flex-grow-1">
               <div class="d-flex justify-content-between text-muted small mb-2">
@@ -641,7 +588,7 @@
             <div class="package-img-holder">
               <img src="https://images.unsplash.com/photo-1575550959106-5a7defe28b56?auto=format&fit=crop&w=700&q=80" alt="Amboseli Elephants">
               <span class="badge-ribbon"><i class="fa-solid fa-mountain me-1"></i> Mt. Kilimanjaro Views</span>
-              <span class="badge-price"><span class="price-val" data-usd="620">KSh 80,600</span> <small class="text-white fw-normal">/ person</small></span>
+              <span class="badge-price">From $620 <small class="text-white fw-normal">/ person</small></span>
             </div>
             <div class="p-4 d-flex flex-column flex-grow-1">
               <div class="d-flex justify-content-between text-muted small mb-2">
@@ -668,7 +615,7 @@
             <div class="package-img-holder">
               <img src="https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=700&q=80" alt="Serengeti Tanzania">
               <span class="badge-ribbon"><i class="fa-solid fa-globe-africa me-1"></i> Tanzania Premier</span>
-              <span class="badge-price"><span class="price-val" data-usd="980">KSh 127,400</span> <small class="text-white fw-normal">/ person</small></span>
+              <span class="badge-price">From $980 <small class="text-white fw-normal">/ person</small></span>
             </div>
             <div class="p-4 d-flex flex-column flex-grow-1">
               <div class="d-flex justify-content-between text-muted small mb-2">
@@ -695,7 +642,7 @@
             <div class="package-img-holder">
               <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=80" alt="Diani Beach">
               <span class="badge-ribbon"><i class="fa-solid fa-umbrella-beach me-1"></i> Bush & Beach Combo</span>
-              <span class="badge-price"><span class="price-val" data-usd="1150">KSh 149,500</span> <small class="text-white fw-normal">/ person</small></span>
+              <span class="badge-price">From $1,150 <small class="text-white fw-normal">/ person</small></span>
             </div>
             <div class="p-4 d-flex flex-column flex-grow-1">
               <div class="d-flex justify-content-between text-muted small mb-2">
@@ -722,7 +669,7 @@
             <div class="package-img-holder">
               <img src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=700&q=80" alt="Luxury Safari Camp">
               <span class="badge-ribbon"><i class="fa-solid fa-champagne-glasses me-1"></i> Honeymoon Special</span>
-              <span class="badge-price"><span class="price-val" data-usd="1420">KSh 184,600</span> <small class="text-white fw-normal">/ couple</small></span>
+              <span class="badge-price">From $1,420 <small class="text-white fw-normal">/ couple</small></span>
             </div>
             <div class="p-4 d-flex flex-column flex-grow-1">
               <div class="d-flex justify-content-between text-muted small mb-2">
@@ -749,7 +696,7 @@
             <div class="package-img-holder">
               <img src="https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=700&q=80" alt="Ranger & Rhinos">
               <span class="badge-ribbon"><i class="fa-solid fa-graduation-cap me-1"></i> Educational & Group</span>
-              <span class="badge-price"><span class="price-val" data-usd="390">KSh 50,700</span> <small class="text-white fw-normal">/ student</small></span>
+              <span class="badge-price">From $390 <small class="text-white fw-normal">/ student</small></span>
             </div>
             <div class="p-4 d-flex flex-column flex-grow-1">
               <div class="d-flex justify-content-between text-muted small mb-2">
@@ -867,28 +814,25 @@
             <i class="fa-solid fa-circle-check text-gold fs-5 mt-1"></i>
             <div>
               <h6 class="fw-bold mb-1">Flexible Payment Plans</h6>
-              <p class="small text-light opacity-75 mb-0">Lock your dates with a modest deposit; pay remaining on arrival in Kenya via M-Pesa or Card.</p>
+              <p class="small text-light opacity-75 mb-0">Lock your dates with a modest deposit; pay remaining on arrival in Kenya.</p>
             </div>
           </div>
         </div>
 
         <div class="col-lg-7">
           <div class="calc-card">
-            <div class="d-flex justify-content-between align-items-center mb-4">
-              <h4 class="fw-bold text-gold mb-0"><i class="fa-solid fa-sliders me-2"></i> Build Your Custom Quote</h4>
-              <span class="badge bg-savannah border border-warning text-gold px-3 py-2 rounded-pill small" id="calcCurrencyBadge">Currency: KSh</span>
-            </div>
+            <h4 class="fw-bold text-gold mb-4"><i class="fa-solid fa-sliders me-2"></i> Build Your Custom Quote</h4>
             
             <div class="row g-3">
               <!-- Destination -->
               <div class="col-md-6">
                 <label class="form-label small fw-bold text-light">Destination / Circuit</label>
                 <select class="form-select bg-dark text-white border-secondary" id="calcDestination" onchange="calculateSafariCost()">
-                  <option value="mara" data-daily-usd="180">Maasai Mara Game Reserve</option>
-                  <option value="mara-nakuru" data-daily-usd="210">Masai Mara + Lake Nakuru</option>
-                  <option value="amboseli" data-daily-usd="195">Amboseli (Kilimanjaro View)</option>
-                  <option value="serengeti" data-daily-usd="260">Serengeti & Ngorongoro (TZ)</option>
-                  <option value="bush-beach" data-daily-usd="230">Mara Wildlife + Diani Beach</option>
+                  <option value="mara" data-daily="180">Maasai Mara Game Reserve</option>
+                  <option value="mara-nakuru" data-daily="210">Masai Mara + Lake Nakuru</option>
+                  <option value="amboseli" data-daily="195">Amboseli (Kilimanjaro View)</option>
+                  <option value="serengeti" data-daily="260">Serengeti & Ngorongoro (TZ)</option>
+                  <option value="bush-beach" data-daily="230">Mara Wildlife + Diani Beach</option>
                 </select>
               </div>
 
@@ -896,8 +840,8 @@
               <div class="col-md-6">
                 <label class="form-label small fw-bold text-light">Vehicle Style</label>
                 <select class="form-select bg-dark text-white border-secondary" id="calcVehicle" onchange="calculateSafariCost()">
-                  <option value="cruiser" data-perday-usd="220">Custom 4x4 Safari Land Cruiser (Pop-up)</option>
-                  <option value="van" data-perday-usd="130">Safari Tour Minivan (Pop-up Roof)</option>
+                  <option value="cruiser" data-perday="220">Custom 4x4 Safari Land Cruiser (Pop-up)</option>
+                  <option value="van" data-perday="130">Safari Tour Minivan (Pop-up Roof)</option>
                 </select>
               </div>
 
@@ -918,9 +862,9 @@
               <div class="col-md-4">
                 <label class="form-label small fw-bold text-light">Accommodation Style</label>
                 <select class="form-select bg-dark text-white border-secondary" id="calcTier" onchange="calculateSafariCost()">
-                  <option value="budget" data-room-usd="90">Budget / Adventure Camp</option>
-                  <option value="midrange" data-room-usd="180" selected>Mid-Range Tented Lodge</option>
-                  <option value="luxury" data-room-usd="360">Luxury Safari Resort / Camp</option>
+                  <option value="budget" data-room="90">Budget / Adventure Camp</option>
+                  <option value="midrange" data-room="180" selected>Mid-Range Tented Lodge</option>
+                  <option value="luxury" data-room="360">Luxury Safari Resort / Camp</option>
                 </select>
               </div>
 
@@ -944,11 +888,11 @@
                 <div class="d-flex flex-wrap gap-3">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="addonBalloon" onchange="calculateSafariCost()">
-                    <label class="form-check-label small text-light" for="addonBalloon" id="balloonLabel">Hot Air Balloon Safari (KSh 58,500/p)</label>
+                    <label class="form-check-label small text-light" for="addonBalloon">Hot Air Balloon Safari ($450/p)</label>
                   </div>
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="addonMaasai" onchange="calculateSafariCost()">
-                    <label class="form-check-label small text-light" for="addonMaasai" id="maasaiLabel">Maasai Cultural Village Visit (KSh 3,900/p)</label>
+                    <label class="form-check-label small text-light" for="addonMaasai">Maasai Cultural Village Visit ($30/p)</label>
                   </div>
                 </div>
               </div>
@@ -960,8 +904,8 @@
               <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
                 <div>
                   <span class="text-light small text-uppercase">Estimated Total (All Travelers):</span>
-                  <div class="display-6 fw-bold text-gold" id="totalPriceDisplay">KSh 192,400</div>
-                  <small class="text-white-50" id="pricePerPersonDisplay">Approx. KSh 96,200 per person</small>
+                  <div class="display-6 fw-bold text-gold" id="totalPriceDisplay">$1,480</div>
+                  <small class="text-white-50" id="pricePerPersonDisplay">Approx. $740 per person</small>
                 </div>
                 <div>
                   <button class="btn btn-gold px-4 py-2" onclick="sendWhatsAppQuote()">
@@ -1247,7 +1191,7 @@
                 </div>
                 <div class="col-md-6">
                   <label class="form-label small fw-bold">Phone / WhatsApp *</label>
-                  <input type="tel" class="form-control" id="contactPhone" placeholder="+254 700 000 000" required>
+                  <input type="tel" class="form-control" id="contactPhone" placeholder="+1 234 567 8900" required>
                 </div>
                 <div class="col-md-6">
                   <label class="form-label small fw-bold">Preferred Destination</label>
@@ -1334,7 +1278,7 @@
     </div>
   </footer>
 
-  <a href="https://wa.me/254722641603?text=Hello%20Planet%20Wanders%20Tours!%20I%20would%20like%20to%20inquire%20about%20a%20Masai%20Mara%20safari." 
+  <a href="https://wa.me/254712345678?text=Hello%20Planet%20Wanders%20Tours!%20I%20would%20like%20to%20inquire%20about%20a%20Masai%20Mara%20safari." 
      class="floating-whatsapp" target="_blank" rel="noopener noreferrer" title="Chat with Narok Office on WhatsApp">
     <i class="fa-brands fa-whatsapp"></i>
   </a>
@@ -1376,68 +1320,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <script>
-    // Exchange rate configuration: 1 USD = 130 KES
-    const KES_PER_USD = 130;
-    let currentCurrency = 'KES';
-
-    // Currency Formatting Utility
-    function formatMoney(amountInUSD, currency) {
-      if (currency === 'KES') {
-        const kesAmount = Math.round(amountInUSD * KES_PER_USD);
-        return `KSh ${kesAmount.toLocaleString()}`;
-      } else {
-        return `$${Math.round(amountInUSD).toLocaleString()}`;
-      }
-    }
-
-    // Set and persist currency
-    function setCurrency(curr) {
-      currentCurrency = curr;
-      localStorage.setItem('planet_wanders_currency', curr);
-
-      // Update active styling on all switch buttons (desktop and mobile)
-      document.querySelectorAll('.currency-switch-btn').forEach(btn => {
-        if (btn.getAttribute('data-currency') === curr) {
-          btn.classList.add('active');
-        } else {
-          btn.classList.remove('active');
-        }
-      });
-
-      // Update calculator badge
-      const badge = document.getElementById('calcCurrencyBadge');
-      if (badge) {
-        badge.textContent = `Currency: ${curr === 'KES' ? 'KSh (Kenyan Shilling)' : 'USD ($)'}`;
-      }
-
-      // Update add-on labels in calculator
-      const balloonLabel = document.getElementById('balloonLabel');
-      if (balloonLabel) {
-        balloonLabel.textContent = `Hot Air Balloon Safari (${formatMoney(450, curr)}/p)`;
-      }
-      const maasaiLabel = document.getElementById('maasaiLabel');
-      if (maasaiLabel) {
-        maasaiLabel.textContent = `Maasai Cultural Village Visit (${formatMoney(30, curr)}/p)`;
-      }
-
-      // Re-render package cards prices
-      document.querySelectorAll('.package-item .price-val').forEach(el => {
-        const usdPrice = parseFloat(el.getAttribute('data-usd'));
-        if (!isNaN(usdPrice)) {
-          el.textContent = formatMoney(usdPrice, curr);
-        }
-      });
-
-      // Recalculate calculator display
-      calculateSafariCost();
-    }
-
-    // Data store for itinerary previews (base USD values)
+    // Data store for itinerary previews
     const itineraryData = {
       mara3: {
         title: "3-Day Authentic Masai Mara Wildebeest Safari",
         duration: "3 Days / 2 Nights",
-        usdPrice: 450,
+        price: "$450 per person",
         overview: "The quintessential African bush getaway starting from Nairobi or Narok Town. Features morning and late afternoon game drives across the Maasai Mara National Reserve in search of the Big Five (Lion, Leopard, Elephant, Rhino, Buffalo) and millions of migratory ungulates.",
         schedule: [
           { day: "Day 1", title: "Nairobi / Narok to Masai Mara", desc: "Scenic departure descending the Great Rift Valley escarpment. Arrive in Masai Mara for lunch, followed by an introductory sunset game drive." },
@@ -1449,7 +1337,7 @@
       amboseli4: {
         title: "4-Day Amboseli Giant Tuskers & Crescent Island",
         duration: "4 Days / 3 Nights",
-        usdPrice: 620,
+        price: "$620 per person",
         overview: "Witness huge free-ranging elephant herds with the breathtaking snow peaks of Mount Kilimanjaro in Amboseli National Park, combined with the freshwater bird sanctuary of Lake Naivasha.",
         schedule: [
           { day: "Day 1", title: "Transfer to Amboseli National Park", desc: "Morning pickup and drive to Amboseli. Afternoon game drive across the lake bed with views of Mt. Kilimanjaro." },
@@ -1462,7 +1350,7 @@
       serengeti5: {
         title: "5-Day Endless Serengeti & Ngorongoro Crater",
         duration: "5 Days / 4 Nights",
-        usdPrice: 980,
+        price: "$980 per person",
         overview: "Cross borders into Tanzania to explore the world's most renowned wildlife ecosystem: the Serengeti's endless golden savannas and the dramatic volcanic caldera of Ngorongoro.",
         schedule: [
           { day: "Day 1", title: "Arusha to Ngorongoro Highlands", desc: "Drive through coffee plantations to the crater rim with breathtaking vistas." },
@@ -1476,7 +1364,7 @@
       bushbeach7: {
         title: "7-Day Bush-to-Beach: Masai Mara & Diani Sands",
         duration: "7 Days / 6 Nights",
-        usdPrice: 1150,
+        price: "$1,150 per person",
         overview: "The ultimate Kenya experience: 3 nights of adrenaline-pumping wildlife in the Maasai Mara followed by 3 nights of tropical serenity on the award-winning white sands of Diani Beach.",
         schedule: [
           { day: "Day 1-3", title: "Masai Mara Wilderness", desc: "Three unforgettable days of 4x4 game drives in Mara. Big five encounters and sundowners." },
@@ -1489,7 +1377,7 @@
       honeymoon6: {
         title: "Romantic Bush & Coral Reef Honeymoon Escape",
         duration: "6 Days / 5 Nights",
-        usdPrice: 1420,
+        price: "$1,420 per couple",
         overview: "Specially curated for newly married couples looking for intimacy, luxury, and thrill. Features private romantic bush dinners, champagne breakfasts, and boutique suites.",
         schedule: [
           { day: "Day 1", title: "VIP Arrival & Tented Suite Welcome", desc: "Welcome bottle of wine and private evening game drive with sunset appetizers." },
@@ -1502,7 +1390,7 @@
       study4: {
         title: "Educational Ecology & Rhino Sanctuary Study Tour",
         duration: "4 Days / 3 Nights",
-        usdPrice: 390,
+        price: "$390 per student",
         overview: "Designed for school and college groups interested in biodiversity, wildlife veterinary science, anti-poaching canines, and community conservancies.",
         schedule: [
           { day: "Day 1", title: "Ol Pejeta Conservancy & Chimpanzee Sanctuary", desc: "Behind the scenes look at the world’s last remaining Northern White Rhinos." },
@@ -1528,10 +1416,6 @@
         }
       });
 
-      // Read stored currency or default to KES
-      const savedCurrency = localStorage.getItem('planet_wanders_currency') || 'KES';
-      setCurrency(savedCurrency);
-
       // Filter packages
       const filterButtons = document.querySelectorAll('#packageFilterButtons .filter-btn');
       const packageItems = document.querySelectorAll('.package-item');
@@ -1553,6 +1437,9 @@
           });
         });
       });
+
+      // Initial calculation
+      calculateSafariCost();
     });
 
     function calculateSafariCost() {
@@ -1562,28 +1449,28 @@
       const days = parseInt(document.getElementById('calcDays').value);
       const adults = parseInt(document.getElementById('calcAdults').value);
 
-      const destDailyParkFeeUSD = parseFloat(destSelect.options[destSelect.selectedIndex].getAttribute('data-daily-usd'));
-      const vehicleCostPerDayUSD = parseFloat(vehicleSelect.options[vehicleSelect.selectedIndex].getAttribute('data-perday-usd'));
-      const roomCostPerPersonPerDayUSD = parseFloat(tierSelect.options[tierSelect.selectedIndex].getAttribute('data-room-usd'));
+      const destDailyParkFee = parseFloat(destSelect.options[destSelect.selectedIndex].getAttribute('data-daily'));
+      const vehicleCostPerDay = parseFloat(vehicleSelect.options[vehicleSelect.selectedIndex].getAttribute('data-perday'));
+      const roomCostPerPersonPerDay = parseFloat(tierSelect.options[tierSelect.selectedIndex].getAttribute('data-room'));
 
       const hasBalloon = document.getElementById('addonBalloon').checked;
       const hasMaasai = document.getElementById('addonMaasai').checked;
 
-      // Calculation formula in USD base:
+      // Calculation formula:
       // Total = (Vehicle daily * days) + (Parks & Guides per adult * days) + (Room per adult * (days - 1)) + Add-ons
-      const totalVehicleCost = vehicleCostPerDayUSD * days;
-      const totalParkAndGuide = destDailyParkFeeUSD * adults * days;
-      const totalRooms = roomCostPerPersonPerDayUSD * adults * Math.max(1, days - 1);
+      const totalVehicleCost = vehicleCostPerDay * days;
+      const totalParkAndGuide = destDailyParkFee * adults * days;
+      const totalRooms = roomCostPerPersonPerDay * adults * Math.max(1, days - 1);
       
       let addonCost = 0;
       if (hasBalloon) addonCost += (450 * adults);
       if (hasMaasai) addonCost += (30 * adults);
 
-      const grandTotalUSD = Math.round(totalVehicleCost + totalParkAndGuide + totalRooms + addonCost);
-      const perPersonUSD = Math.round(grandTotalUSD / adults);
+      const grandTotal = Math.round(totalVehicleCost + totalParkAndGuide + totalRooms + addonCost);
+      const perPerson = Math.round(grandTotal / adults);
 
-      document.getElementById('totalPriceDisplay').textContent = formatMoney(grandTotalUSD, currentCurrency);
-      document.getElementById('pricePerPersonDisplay').textContent = `Approx. ${formatMoney(perPersonUSD, currentCurrency)} per person (for ${adults} guests)`;
+      document.getElementById('totalPriceDisplay').textContent = '$' + grandTotal.toLocaleString();
+      document.getElementById('pricePerPersonDisplay').textContent = `Approx. $${perPerson.toLocaleString()} per person (for ${adults} guests)`;
     }
 
     // Direct WhatsApp send with calculated quote
@@ -1594,9 +1481,9 @@
       const adults = document.getElementById('calcAdults').value;
       const total = document.getElementById('totalPriceDisplay').textContent;
 
-      const message = `Hello Planet Wanders Tours! I would like to book a safari based on your website calculator:%0A- Destination: ${encodeURIComponent(dest)}%0A- Vehicle: ${encodeURIComponent(vehicle)}%0A- Duration: ${days} Days%0A- Adults: ${adults}%0A- Quoted Total: ${encodeURIComponent(total)}%0APlease confirm availability for my dates!`;
+      const message = `Hello Planet Wanders Tours! I would like to book a safari based on your website calculator:%0A- Destination: ${dest}%0A- Vehicle: ${vehicle}%0A- Duration: ${days} Days%0A- Adults: ${adults}%0A- Estimated Total: ${total}%0APlease confirm availability for my dates!`;
       
-      window.open(`https://wa.me/254722641603?text=${message}`, '_blank');
+      window.open(`https://wa.me/254712345678?text=${message}`, '_blank');
     }
 
     // Quick search bar submission
@@ -1614,7 +1501,7 @@
       
       setTimeout(() => {
         const text = `Hi Planet Wanders! I am inquiring for ${dest}, Target Date: ${date}, Group: ${guests}, Vehicle: ${vehicle}. Are there available slots?`;
-        window.open(`https://wa.me/254722641603?text=${encodeURIComponent(text)}`, '_blank');
+        window.open(`https://wa.me/254712345678?text=${encodeURIComponent(text)}`, '_blank');
       }, 1400);
     }
 
@@ -1639,17 +1526,19 @@
         `;
       });
 
+      
+
       let includesHtml = '';
       data.includes.forEach(inc => {
         includesHtml += `<li class="small text-muted mb-1"><i class="fa-solid fa-check text-gold me-2"></i>${inc}</li>`;
       });
 
-      const formattedPrice = `${formatMoney(data.usdPrice, currentCurrency)} per person`;
+
 
       modalBody.innerHTML = `
         <div class="d-flex justify-content-between align-items-center mb-3">
           <span class="badge bg-olive px-3 py-2 fs-6"><i class="fa-regular fa-clock me-1"></i> ${data.duration}</span>
-          <span class="text-gold fw-bold fs-5">${formattedPrice}</span>
+          <span class="text-gold fw-bold fs-5">${data.price}</span>
         </div>
         <p class="text-secondary">${data.overview}</p>
         <h5 class="fw-bold text-olive mt-4 mb-3 font-serif">Daily Itinerary Schedule</h5>
