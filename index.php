@@ -1197,13 +1197,13 @@
             Speak directly with our local tour consultants in Narok Town and Nairobi. We tailor every itinerary to your budget, time, and wildlife wishlist.
           </p>
 
-          <div class="d-flex align-items-start gap-3 mb-4">
+          <!-- <div class="d-flex align-items-start gap-3 mb-4">
             <div class="bg-gold p-3 rounded-3 text-dark"><i class="fa-solid fa-map-location-dot fs-5"></i></div>
             <div>
               <h6 class="fw-bold text-gold mb-1">Narok Town Head Office</h6>
               <p class="small text-light opacity-75 mb-0">Along Ngong Road, Nairobi, Kenya</p>
             </div>
-          </div>
+          </div> -->
 
           <div class="d-flex align-items-start gap-3 mb-4">
             <div class="bg-gold p-3 rounded-3 text-dark"><i class="fa-solid fa-building text-dark fs-5"></i></div>
@@ -1329,13 +1329,13 @@
       </div>
 
       <div class="border-top border-secondary border-opacity-25 mt-4 pt-4 text-center small text-white-50">
-        © <span id="currentYear"></span> Planet Wanders Tours & Safaris. Narok & Nairobi, Kenya. All rights reserved.
+        © <span id="currentYear"></span> Planet Wanders Tours & Safaris.  Nairobi, Kenya. All rights reserved.
       </div>
     </div>
   </footer>
 
   <a href="https://wa.me/254722641603?text=Hello%20Planet%20Wanders%20Tours!%20I%20would%20like%20to%20inquire%20about%20a%20Masai%20Mara%20safari." 
-     class="floating-whatsapp" target="_blank" rel="noopener noreferrer" title="Chat with Narok Office on WhatsApp">
+     class="floating-whatsapp" target="_blank" rel="noopener noreferrer" title="Chat with Our Team on WhatsApp">
     <i class="fa-brands fa-whatsapp"></i>
   </a>
 
@@ -1365,7 +1365,7 @@
             <i class="fa-solid fa-circle-check"></i>
           </div>
           <h4 class="fw-bold text-olive mb-2" id="statusModalTitle">Inquiry Received</h4>
-          <p class="text-muted" id="statusModalBody">Thank you! Our Narok & Nairobi team will reach back out promptly.</p>
+          <p class="text-muted" id="statusModalBody">Thank you! Our team will reach back out promptly.</p>
           <button type="button" class="btn btn-gold rounded-pill px-4 mt-2" data-bs-dismiss="modal">Got it</button>
         </div>
       </div>
