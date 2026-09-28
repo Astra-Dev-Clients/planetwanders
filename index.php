@@ -380,7 +380,7 @@
   <div class="bg-savannah text-light py-2 border-bottom border-dark d-none d-md-block">
     <div class="container d-flex justify-content-between align-items-center small">
       <div>
-        <span class="me-3"><i class="fa-solid fa-location-dot text-gold me-1"></i> Narok Town & Nairobi, Kenya</span>
+        <span class="me-3"><i class="fa-solid fa-location-dot text-gold me-1"></i> Nairobi, Kenya</span>
         <span class="me-3"><i class="fa-solid fa-clock text-gold me-1"></i> Mon - Sun: 7:00 AM – 9:00 PM EAT</span>
         <span><i class="fa-solid fa-shield-heart text-gold me-1"></i> Licensed KATO Safaris Partner</span>
       </div>
@@ -460,7 +460,7 @@
             Discover the <span class="text-gold fst-italic">Magic of Wildlife</span>
           </h1>
           <p class="lead mb-4 text-light opacity-90" style="font-size: 1.25rem;">
-            Based in <strong>Narok Town & Nairobi</strong>, we are your authentic local gateway to Masai Mara, Serengeti, Amboseli, and idyllic Kenyan coastal retreats. Custom 4×4 Land Cruisers, expert local guides, and best-price guarantees!
+            Based in <strong> Nairobi</strong>, we are your authentic local gateway to Masai Mara, Serengeti, Amboseli, and idyllic Kenyan coastal retreats. Custom 4×4 Land Cruisers, expert local guides, and best-price guarantees!
           </p>
           <div class="d-flex flex-wrap gap-3">
             <a href="#packages" class="btn btn-gold btn-lg px-4 py-3">
@@ -541,7 +541,7 @@
     <div class="container py-4">
       <div class="text-center max-w-700 mx-auto mb-5">
         <span class="section-subtitle">Why Travel With Us</span>
-        <h2 class="display-6 fw-bold text-olive">Rooted in Narok & Nairobi. Passionate About Africa.</h2>
+        <h2 class="display-6 fw-bold text-olive">Rooted in Nairobi. Passionate About Africa.</h2>
         <p class="text-muted">Narok is the home county of the legendary Maasai Mara. Being based right here in Narok Town and Nairobi means our teams know every valley, river crossing, predator territory, and indigenous cultural custom.</p>
       </div>
 
@@ -847,7 +847,7 @@
           <span class="section-subtitle">Real-Time Estimator</span>
           <h2 class="display-6 fw-bold mb-3 text-white">Safari Cost Calculator & Custom Quote</h2>
           <p class="text-light opacity-90 mb-4">
-            Plan your dream itinerary right now. Choose your preferred parks, comfort level, and customized 4x4 Land Cruiser options to get an instant cost projection and send it directly to our reservation agents in Narok & Nairobi.
+            Plan your dream itinerary right now. Choose your preferred parks, comfort level, and customized 4x4 Land Cruiser options to get an instant cost projection and send it directly to our reservation agents in  Nairobi.
           </p>
           <div class="d-flex align-items-start gap-3 mb-3">
             <i class="fa-solid fa-circle-check text-gold fs-5 mt-1"></i>
@@ -860,7 +860,7 @@
             <i class="fa-solid fa-circle-check text-gold fs-5 mt-1"></i>
             <div>
               <h6 class="fw-bold mb-1">Direct WhatsApp Confirmation</h6>
-              <p class="small text-light opacity-75 mb-0">Instant communication with our Narok town base operations.</p>
+              <p class="small text-light opacity-75 mb-0">Instant communication with our Nairobi base operations.</p>
             </div>
           </div>
           <div class="d-flex align-items-start gap-3">
@@ -1064,7 +1064,7 @@
               <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
             </div>
             <p class="text-muted small flex-grow-1">
-              "Planet Wanders made our Masai Mara safari extraordinary! Because their team is rooted in Narok, our guide Peter knew every shortcut and secret spot. We witnessed a leopard hunting and the Great Migration crossing on our second day!"
+              "Planet Wanders made our Masai Mara safari extraordinary! Because their team is rooted in Nairobi, our guide Peter knew every shortcut and secret spot. We witnessed a leopard hunting and the Great Migration crossing on our second day!"
             </p>
             <div class="d-flex align-items-center gap-3 mt-3 pt-3 border-top">
               <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80" class="guest-avatar" alt="Guest Sarah">
@@ -1176,7 +1176,7 @@
               </h2>
               <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#safariFaq">
                 <div class="accordion-body text-muted">
-                  We provide door-to-door pickups from any hotel or airport in Nairobi (JKIA / Wilson Airport), as well as direct departures from our Narok Town offices if you are already in the Great Rift Valley or western Kenya region.
+                  We provide door-to-door pickups from any hotel or airport in Nairobi (JKIA / Wilson Airport), as well as direct departures from our Nairobi offices if you are already in the Great Rift Valley or western Kenya region.
                 </div>
               </div>
             </div>
@@ -1194,7 +1194,7 @@
           <span class="section-subtitle">Get In Touch</span>
           <h2 class="display-6 fw-bold mb-3 text-white">Let’s Plan Your Dream Safari</h2>
           <p class="text-light opacity-75 mb-4">
-            Speak directly with our local tour consultants in Narok Town and Nairobi. We tailor every itinerary to your budget, time, and wildlife wishlist.
+            Speak directly with our local tour consultants. We tailor every itinerary to your budget, time, and wildlife wishlist.
           </p>
 
           <!-- <div class="d-flex align-items-start gap-3 mb-4">
@@ -1609,7 +1609,7 @@
 
       showStatusModal(
         'Checking Availability',
-        `Checking availability for ${dest} around ${date || 'upcoming dates'} for ${guests} using ${vehicle}. Connecting you with our Narok reservation team!`
+        `Checking availability for ${dest} around ${date || 'upcoming dates'} for ${guests} using ${vehicle}. Connecting you with our Nairobi reservation team!`
       );
       
       setTimeout(() => {
@@ -1687,7 +1687,7 @@
 
       showStatusModal(
         'Inquiry Submitted!',
-        `Thank you ${name}! Your safari inquiry for ${dest} has been dispatched to our booking agents in Narok & Nairobi. We will contact you via WhatsApp / email shortly.`
+        `Thank you ${name}! Your safari inquiry for ${dest} has been dispatched to our booking agents in Nairobi. We will contact you via WhatsApp / email shortly.`
       );
 
       document.getElementById('contactForm').reset();
