@@ -1201,7 +1201,7 @@
             <div class="bg-gold p-3 rounded-3 text-dark"><i class="fa-solid fa-map-location-dot fs-5"></i></div>
             <div>
               <h6 class="fw-bold text-gold mb-1">Narok Town Head Office</h6>
-              <p class="small text-light opacity-75 mb-0">Narok Business Plaza, Along Masai Mara Highway, Narok Town, Kenya</p>
+              <p class="small text-light opacity-75 mb-0">Along Ngong Road, Nairobi, Kenya</p>
             </div>
           </div>
 
@@ -1209,7 +1209,7 @@
             <div class="bg-gold p-3 rounded-3 text-dark"><i class="fa-solid fa-building text-dark fs-5"></i></div>
             <div>
               <h6 class="fw-bold text-gold mb-1">Nairobi Booking Hub</h6>
-              <p class="small text-light opacity-75 mb-0">Westlands Commercial Centre, Nairobi, Kenya</p>
+              <p class="small text-light opacity-75 mb-0">Along Ngong Road, Nairobi, Kenya</p>
             </div>
           </div>
 
@@ -1217,7 +1217,7 @@
             <div class="bg-gold p-3 rounded-3 text-dark"><i class="fa-solid fa-phone fs-5"></i></div>
             <div>
               <h6 class="fw-bold text-gold mb-1">Direct Lines & WhatsApp</h6>
-              <p class="small text-light opacity-75 mb-0">+254 712 345 678 / +254 798 765 432</p>
+              <p class="small text-light opacity-75 mb-0">+254 722 641603 / +254 746 784 180</p>
             </div>
           </div>
 
@@ -1225,7 +1225,7 @@
             <div class="bg-gold p-3 rounded-3 text-dark"><i class="fa-solid fa-envelope fs-5"></i></div>
             <div>
               <h6 class="fw-bold text-gold mb-1">Email Reservations</h6>
-              <p class="small text-light opacity-75 mb-0">info@planetwanderstours.com | bookings@planetwanderstours.com</p>
+              <p class="small text-light opacity-75 mb-0">info@planetwanderstours.com | Planetwanderstoursandtravelltd@gmail.com</p>
             </div>
           </div>
         </div>
