@@ -396,8 +396,9 @@
     <div class="container">
       <a class="navbar-brand d-flex align-items-center gap-2" href="#">
         <div class="d-flex align-items-center justify-content-center flex-shrink-0" style="width: 54px; height: 54px;">
-          <img src="assets/images/planetwanders-logo.png" alt="Planet Wanders Logo" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;">
-        </div>
+        <!-- <i class="fa-solid fa-compass fa-lg"></i> -->
+        <img src="assets/images/planetwanders-logo.png" alt="Planet Wanders Logo" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;">
+      </div>
         <div>
           <span class="fw-bold tracking-wide text-white d-block lh-1" style="font-size: 1.35rem; font-family: 'Playfair Display', serif;">PLANET WANDERS</span>
           <span class="text-gold text-uppercase small" style="font-size: 0.72rem; letter-spacing: 1.5px;">Tours & Safaris • Kenya</span>
@@ -428,12 +429,15 @@
         </ul>
         <div class="d-flex align-items-center gap-3">
 
+        
           <!-- Desktop Currency Switcher -->
           <div class="currency-switch-group d-none d-lg-inline-flex" title="Toggle Currency (Default: KSh)" style="font-size: 0.75rem;">
             <button class="currency-switch-btn active px-1 py-1" data-currency="KES" onclick="setCurrency('KES')">
+              <!-- <i class="fa-solid fa-coins me-0"></i> -->
                KSh
             </button>
             <button class="currency-switch-btn px-1 py-1" data-currency="USD" onclick="setCurrency('USD')">
+              <!-- <i class="fa-solid fa-dollar-sign me-0"></i> -->
                USD
             </button>
           </div>
@@ -457,7 +461,7 @@
             Discover the <span class="text-gold fst-italic">Magic of Wildlife</span>
           </h1>
           <p class="lead mb-4 text-light opacity-90" style="font-size: 1.25rem;">
-            Based in <strong>Nairobi</strong>, we are your authentic local gateway to Masai Mara, Serengeti, Amboseli, and idyllic Kenyan coastal retreats. Custom 4×4 Land Cruisers, expert local guides, and best-price guarantees!
+            Based in <strong> Nairobi</strong>, we are your authentic local gateway to Masai Mara, Serengeti, Amboseli, and idyllic Kenyan coastal retreats. Custom 4×4 Land Cruisers, expert local guides, and best-price guarantees!
           </p>
           <div class="d-flex flex-wrap gap-3">
             <a href="#packages" class="btn btn-gold btn-lg px-4 py-3">
@@ -494,7 +498,6 @@
           <div class="col-lg-3 col-md-6">
             <label class="form-label small fw-bold text-uppercase text-muted"><i class="fa-solid fa-map-pin text-gold me-1"></i> Destination</label>
             <select class="form-select" id="quickDest" required>
-              <option value="Couples Grand Circuit (Mara, Amboseli, Tsavo & Diani)">Couples Grand Circuit (Mara, Amboseli, Tsavo & Diani)</option>
               <option value="Masai Mara Game Reserve">Masai Mara Reserve</option>
               <option value="Amboseli National Park">Amboseli (Mt Kilimanjaro)</option>
               <option value="Serengeti & Ngorongoro (Tanzania)">Serengeti & Ngorongoro</option>
@@ -510,7 +513,7 @@
           <div class="col-lg-2 col-md-6">
             <label class="form-label small fw-bold text-uppercase text-muted"><i class="fa-solid fa-users text-gold me-1"></i> Guests</label>
             <select class="form-select" id="quickGuests">
-              <option value="2 Adults (Couple / Honeymoon)">2 Guests (Couple)</option>
+              <option value="2 Adults (Couple / Honeymoon)">2 Guests</option>
               <option value="Family (3-5 Guests)">3 - 5 Guests</option>
               <option value="Private Group (6-8 Guests)">6 - 8 Guests</option>
               <option value="Solo Traveler">Solo Explorer</option>
@@ -606,33 +609,6 @@
       <!-- Packages Grid -->
       <div class="row g-4" id="packagesContainer">
         
-        <!-- NEW FEATURED PACKAGE (FIRST): 10 Days 9 Nights Couples Safari Getaway -->
-        <div class="col-lg-4 col-md-6 package-item" data-category="honeymoon">
-          <div class="package-card border-warning border-opacity-50">
-            <div class="package-img-holder">
-              <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=700&q=80" alt="Couples Safari Getaway">
-              <span class="badge-ribbon bg-danger text-white"><i class="fa-solid fa-heart me-1"></i> Featured Couples Safari</span>
-              <span class="badge-price"><span class="price-val" data-usd="2265">KSh 294,450</span> <small class="text-white fw-normal">/ person</small></span>
-            </div>
-            <div class="p-4 d-flex flex-column flex-grow-1">
-              <div class="d-flex justify-content-between text-muted small mb-2">
-                <span><i class="fa-regular fa-clock text-gold me-1"></i> 10 Days / 9 Nights</span>
-                <span><i class="fa-solid fa-location-dot text-gold me-1"></i> Mara • Amboseli • Tsavo • Diani</span>
-              </div>
-              <h4 class="fw-bold text-olive mb-2">10-Day Couples Safari Getaway: Bush & Diani Paradise</h4>
-              <p class="text-muted small flex-grow-1">The grand African romance! Maasai Mara, Amboseli Kilimanjaro herds, Tsavo West wilderness, Kisite Mpunguti & Wasini Island marine tour, SGR train experience, and 3 nights at Diani Sea Lodge.</p>
-              <div class="border-top pt-3 mt-2 d-flex gap-2">
-                <button class="btn btn-outline-gold btn-sm flex-grow-1" onclick="openItineraryModal('couples10')">
-                  <i class="fa-solid fa-list-check me-1"></i> Itinerary
-                </button>
-                <button class="btn btn-gold btn-sm flex-grow-1" onclick="prefillBooking('10 Days / 9 Nights Couples Safari Getaway', 2265)">
-                  Book Now
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <!-- Package 1: 3-Day Masai Mara Classic -->
         <div class="col-lg-4 col-md-6 package-item" data-category="mara">
           <div class="package-card">
@@ -872,7 +848,7 @@
           <span class="section-subtitle">Real-Time Estimator</span>
           <h2 class="display-6 fw-bold mb-3 text-white">Safari Cost Calculator & Custom Quote</h2>
           <p class="text-light opacity-90 mb-4">
-            Plan your dream itinerary right now. Choose your preferred parks, comfort level, and customized 4x4 Land Cruiser options to get an instant cost projection and send it directly to our reservation agents in Nairobi.
+            Plan your dream itinerary right now. Choose your preferred parks, comfort level, and customized 4x4 Land Cruiser options to get an instant cost projection and send it directly to our reservation agents in  Nairobi.
           </p>
           <div class="d-flex align-items-start gap-3 mb-3">
             <i class="fa-solid fa-circle-check text-gold fs-5 mt-1"></i>
@@ -1222,6 +1198,14 @@
             Speak directly with our local tour consultants. We tailor every itinerary to your budget, time, and wildlife wishlist.
           </p>
 
+          <!-- <div class="d-flex align-items-start gap-3 mb-4">
+            <div class="bg-gold p-3 rounded-3 text-dark"><i class="fa-solid fa-map-location-dot fs-5"></i></div>
+            <div>
+              <h6 class="fw-bold text-gold mb-1">Narok Town Head Office</h6>
+              <p class="small text-light opacity-75 mb-0">Along Ngong Road, Nairobi, Kenya</p>
+            </div>
+          </div> -->
+
           <div class="d-flex align-items-start gap-3 mb-4">
             <div class="bg-gold p-3 rounded-3 text-dark"><i class="fa-solid fa-building text-dark fs-5"></i></div>
             <div>
@@ -1269,7 +1253,6 @@
                 <div class="col-md-6">
                   <label class="form-label small fw-bold">Preferred Destination</label>
                   <select class="form-select" id="contactDestination">
-                    <option value="10-Day Couples Safari Getaway (Mara, Amboseli, Tsavo & Diani)">10-Day Couples Safari Getaway (Mara, Amboseli, Tsavo & Diani)</option>
                     <option value="Masai Mara Classic Safari">Masai Mara Classic</option>
                     <option value="Amboseli & Naivasha">Amboseli & Kilimanjaro</option>
                     <option value="Serengeti & Tanzania">Serengeti & Ngorongoro</option>
@@ -1347,17 +1330,16 @@
       </div>
 
       <div class="border-top border-secondary border-opacity-25 mt-4 pt-4 text-center small text-white-50">
-        © <span id="currentYear"></span> Planet Wanders Tours & Safaris. Nairobi, Kenya. All rights reserved.
+        © <span id="currentYear"></span> Planet Wanders Tours & Safaris.  Nairobi, Kenya. All rights reserved.
       </div>
     </div>
   </footer>
 
-  <a href="https://wa.me/254722641603?text=Hello%20Planet%20Wanders%20Tours!%20I%20would%20like%20to%20inquire%20about%20a%20safari%20getaway." 
+  <a href="https://wa.me/254722641603?text=Hello%20Planet%20Wanders%20Tours!%20I%20would%20like%20to%20inquire%20about%20a%20Masai%20Mara%20safari." 
      class="floating-whatsapp" target="_blank" rel="noopener noreferrer" title="Chat with Our Team on WhatsApp">
     <i class="fa-brands fa-whatsapp"></i>
   </a>
 
-  <!-- Modal for Itinerary details -->
   <div class="modal fade" id="itineraryModal" tabindex="-1" aria-labelledby="itineraryModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content rounded-4 border-0">
@@ -1376,7 +1358,6 @@
     </div>
   </div>
 
-  <!-- Status / Alert Modal -->
   <div class="modal fade" id="statusModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content rounded-4 border-0 shadow">
@@ -1454,29 +1435,6 @@
 
     // Data store for itinerary previews (base USD values)
     const itineraryData = {
-      couples10: {
-        title: "10 Days / 9 Nights Couples Safari Getaway",
-        duration: "10 Days / 9 Nights",
-        usdPrice: 2265,
-        overview: "The quintessential couples bush-to-beach odyssey across Kenya's most breathtaking iconic spots: Maasai Mara, Amboseli (Mt. Kilimanjaro), Tsavo West, and the tropical paradise of Diani Beach. Includes game drives, Wasini Island marine dhow safari, scenic SGR train transfers, and full-board lodging.",
-        schedule: [
-          { day: "Nights 1 - 2", title: "Maasai Mara Game Reserve", desc: "Accommodation at Enchoro Wildlife Camp (2 Nights). Daily 4x4 game drives across Mara savanna in search of the Big Five and majestic big cats." },
-          { day: "Nights 3 - 4", title: "Amboseli National Park", desc: "Accommodation at Osutua Rafiki Camp (2 Nights). Spectacular elephant herds against the snowcapped peaks of Mount Kilimanjaro." },
-          { day: "Nights 5 - 6", title: "Tsavo West National Park", desc: "Accommodation at Man Eaters Camp / Lodge (2 Nights). Tsavo West game drives, Mzima Springs, dramatic red soils, and rugged wilderness." },
-          { day: "Day 7", title: "SGR Train from Voi to Mombasa", desc: "Scenic journey aboard the modern Standard Gauge Railway (SGR) from Voi terminal down to Mombasa and onward private transfer to South Coast." },
-          { day: "Nights 7 - 9", title: "Diani Beach Relaxation & Wasini Island", desc: "Stay 3 Nights at Diani Sea Lodge. Includes an excursion to Kisite Mpunguti Marine Park & Wasini Island for dolphin spotting, coral snorkeling, and seafood lunch." },
-          { day: "Day 10", title: "SGR Return / Airport Transfer", desc: "SGR train transfer or flight connection back to Nairobi for onward airport departure." }
-        ],
-        includes: [
-          "Full-board accommodation as per itinerary (Enchoro Camp, Osutua Rafiki, Man Eaters, Diani Sea Lodge)",
-          "All wildlife game drives and marine park excursions",
-          "Dedicated 4x4 Safari Land Cruiser with pop-up roof for photography",
-          "SGR First / Economy train tickets (Voi–Mombasa & Nairobi–Mombasa)",
-          "Kisite Mpunguti & Wasini Island dhow safari",
-          "All ground airport & station transfers",
-          "Certified professional driver guide & chilled drinking water"
-        ]
-      },
       mara3: {
         title: "3-Day Authentic Masai Mara Wildebeest Safari",
         duration: "3 Days / 2 Nights",
@@ -1612,7 +1570,8 @@
       const hasBalloon = document.getElementById('addonBalloon').checked;
       const hasMaasai = document.getElementById('addonMaasai').checked;
 
-      // Calculation formula in USD base
+      // Calculation formula in USD base:
+      // Total = (Vehicle daily * days) + (Parks & Guides per adult * days) + (Room per adult * (days - 1)) + Add-ons
       const totalVehicleCost = vehicleCostPerDayUSD * days;
       const totalParkAndGuide = destDailyParkFeeUSD * adults * days;
       const totalRooms = roomCostPerPersonPerDayUSD * adults * Math.max(1, days - 1);
@@ -1694,7 +1653,7 @@
           <span class="text-gold fw-bold fs-5">${formattedPrice}</span>
         </div>
         <p class="text-secondary">${data.overview}</p>
-        <h5 class="fw-bold text-olive mt-4 mb-3 font-serif">Daily Itinerary Schedule & Lodging</h5>
+        <h5 class="fw-bold text-olive mt-4 mb-3 font-serif">Daily Itinerary Schedule</h5>
         ${scheduleHtml}
         <h5 class="fw-bold text-olive mt-4 mb-2 font-serif">Package Inclusions</h5>
         <ul class="list-unstyled mb-0">
@@ -1706,7 +1665,7 @@
         const myModalEl = document.getElementById('itineraryModal');
         const modal = bootstrap.Modal.getInstance(myModalEl);
         if (modal) modal.hide();
-        prefillBooking(data.title, data.usdPrice);
+        prefillBooking(data.title);
       };
 
       const myModal = new bootstrap.Modal(document.getElementById('itineraryModal'));
@@ -1714,10 +1673,10 @@
     }
 
     // Prefill booking button
-    function prefillBooking(packageName, usdPrice) {
+    function prefillBooking(packageName) {
       document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
       const contactMsg = document.getElementById('contactMessage');
-      contactMsg.value = `Hello, I am interested in booking the "${packageName}" (${formatMoney(usdPrice, currentCurrency)}/person). Please provide available departure dates and the booking procedure.`;
+      contactMsg.value = `Hello, I am interested in booking the "${packageName}". Please provide available departure dates and the confirmation procedure.`;
       contactMsg.focus();
     }
 
