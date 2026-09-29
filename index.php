@@ -395,9 +395,10 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-savannah sticky-top" id="mainNavbar">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-        <div class="bg-gold text-dark rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 44px; height: 44px;">
-          <i class="fa-solid fa-compass fa-lg"></i>
-        </div>
+        <div class="d-flex align-items-center justify-content-center flex-shrink-0" style="width: 54px; height: 54px;">
+        <!-- <i class="fa-solid fa-compass fa-lg"></i> -->
+        <img src="assets/images/planetwanders-logo.png" alt="Planet Wanders Logo" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;">
+      </div>
         <div>
           <span class="fw-bold tracking-wide text-white d-block lh-1" style="font-size: 1.35rem; font-family: 'Playfair Display', serif;">PLANET WANDERS</span>
           <span class="text-gold text-uppercase small" style="font-size: 0.72rem; letter-spacing: 1.5px;">Tours & Safaris • Kenya</span>
