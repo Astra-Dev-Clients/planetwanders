@@ -14,6 +14,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 
+
+<!-- favicons -->
+<link rel="icon" type="image/png" href="assets/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="assets/favicons/favicon.svg" />
+<link rel="shortcut icon" href="assets/favicons/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png" />
+<link rel="manifest" href="assets/favicons/site.webmanifest" />
+
+
+
+
+
   <style>
     :root {
       --pw-gold: #d99a26;
@@ -1398,6 +1410,8 @@
   <script>
     // Exchange rate configuration: 1 USD = 130 KES
     const KES_PER_USD = 130;
+
+
     let currentCurrency = 'KES';
 
     // Currency Formatting Utility
